@@ -1,3 +1,4 @@
+import { TransferenciaService } from './services/transferencia.service';
 import { ExtratoComponent } from './extrato/extrato.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { LOCALE_ID, NgModule } from '@angular/core';

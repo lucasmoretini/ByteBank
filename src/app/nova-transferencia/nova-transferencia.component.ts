@@ -11,6 +11,10 @@ export class NovaTransferenciaComponent {
   valor: number;
   destino: number;
 
+  ngOnInit(){
+    this.limparCampos();
+  }
+
   transferir(): void {
     console.log('Solicitada nova transferência');
     const valorEmitir = { valor: this.valor, destino: this.destino };
